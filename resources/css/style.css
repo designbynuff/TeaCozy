@@ -1,34 +1,41 @@
 body {
-    margin: 0;
-    font-family: "Helvetica", sans-serif;
-    color: seashell;
-    background-color: black;
-    font-size: 22px;
-    text-align: center;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
 }
 
 header {
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    height: 69px;
-    background-color: black;
-    border-bottom: 1px solid seashell;
-    align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
 }
 
 nav {
-    text-align: right;
-    flex-grow: 1;
+  text-align: right;
+  flex-grow: 1;
 }
 
 nav span {
-    display: inline-block;
-    padding: 20px 10px;
+  display: inline-block;
+  padding: 20px 10px;
 }
 
 a {
-    color: seashell;
+  color: seashell;
+}
+
+h2,
+h3,
+h4 {
+  padding: 10px;
+  margin: 0;
 }
 
 .logo{
@@ -37,22 +44,22 @@ a {
 }
 
 .flex-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .container {
-    padding-top: 69px;
-    opacity: 0.9;
-    width: 1200px;
-    margin: auto;
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
 }
 
 #mission {
-    height: 700px;
-    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-    padding-top: 70px;
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
 }
 
 #mission .content{
@@ -64,6 +71,7 @@ a {
 #store{
   width: 1000px;
   margin: auto;
+  padding-top: 70px;
 }
 
 .items{
@@ -71,7 +79,7 @@ a {
 }
 
 .item{
-padding: 5px;
+  padding: 5px;
 }
 
 .item img{
@@ -82,26 +90,27 @@ padding: 5px;
 }
 
 .item span {
-    display: block;
-    padding: 5px;
-    font-weight: bold;
-    text-align: center;
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
 }
 
 #locations {
-    background-image: url(../img/img-locations-background.jpg);
-    height: 500px;
+  background-image: url(../img/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
 }
 
 .location {
-    opacity: 1.0;
-    padding: 10px;
-    margin: 5px 20px;
-    background-color: black;
-    flex-basis: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #contact{
